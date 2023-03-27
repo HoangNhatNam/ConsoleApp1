@@ -12,6 +12,7 @@ namespace ConsoleApp1
 	{
 		static void Main(string[] args)
 		{
+			var a = 1;
             int chon;
             QuanLy quanLy = new QuanLy();
             string p0 = Directory.GetParent(Directory.GetCurrentDirectory()).ToString();
